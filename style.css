@@ -13,6 +13,14 @@ body{
     text-align: center;
 }
 
+.text-white{
+    color: white;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
 .sct-heading{
     font-size: 3em;
     font-weight: 900;
@@ -44,16 +52,20 @@ body{
 
 .header .header-right{
     float: right;
+    vertical-align: middle !important;
 }
 
 .header .header-right ul li{
     display: inline !important;
+    vertical-align: middle !important;
+
 }
 
 .header .header-right a{
     color: tomato !important;
     font-weight: 500;
     transition: transform .2s;
+    vertical-align: middle !important;
 }
 
 a.nav-item{
@@ -61,6 +73,7 @@ a.nav-item{
 }
 
 a.nav-item:hover {
+    color: teal;
     transform: scale(1.5) !important;
 }
 
@@ -74,7 +87,7 @@ a.nav-item:hover {
     padding: 0px 5px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.4em;
     color: tomato;
 }
 
@@ -288,6 +301,29 @@ img.img-style:hover{
     z-index: 2;
 }
 
+
+#ftm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50vh;
+}
+
+#ftm .ftm-item{
+    background-color: rgba(0,69,91,1);
+    padding: 50px;
+}
+
+#ftm .secx{
+    border-left: 0.1px solid rgb(72, 73, 73);
+    border-right: 0.1px solid rgb(72, 73, 73);
+}
+
+#ftm .ftm-heading{
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: tomato;
+}
 
 footer{
     padding: 25px 0px;
