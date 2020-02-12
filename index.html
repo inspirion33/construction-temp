@@ -157,15 +157,29 @@
     </section>
 
     <section id="contact">
-        <div>
-            <h3></h3>
-            <form>
-                <input type="text" name="name" id="fname">
-                <input type="email" name="email" id="email">
-                <input type="text" name="message" id="message">
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <div class="container">  
+            <form id="contact" action="" method="post">
+              <h3 class="text-center">Get in Touch With Us</h3>
+              <h4 class="text-center"><i>Yo! Have you got any questions you'd like to ask? Shoot your shot, <br> Contact us today!</i></h4>
+              <fieldset>
+                <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Type Your Message Here...." tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
             </form>
-        </div>
+           
+            
+          </div>
     </section>
 
     <div id="ftm">
@@ -173,8 +187,19 @@
             <p class="ftm-heading">CONSWORLD</p>
             <p class="text-white text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam doloremque nostrum, hic omnis quod asperiores! Quae, porro labore corporis culpa, rerum iusto, repellat magnam aspernatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aliquam. modi quis vel accusantium! Lorem ipsum dolor sit amet.</p>
         </div>
-        <div class="ftm-item secx"></div>
-        <div class="ftm-item"></div>
+        <div class="ftm-item secx">
+            <h2 class="ftm-heading-2">NAVIGATION</h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">OUR SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="ftm-item">
+            <img src="/images/1.png" class="img-fluid" alt="">
+        </div>
     </div>
 
     <footer>

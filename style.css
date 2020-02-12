@@ -325,10 +325,136 @@ img.img-style:hover{
     color: tomato;
 }
 
+#ftm .ftm-heading-2{
+    font-size: 1.2em;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 15px 0px;
+}
+
+.ftm-item ul li{
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.ftm-item ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Begining of contact style*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+.container {
+	max-width:600px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+}
+
+#contact h3 {
+	color: tomato;
+	display: block;
+	font-size: 3em;
+	font-weight: 500;
+}
+
+#contact h4 {
+	margin:10px 0 35px;
+	display:block;
+	font-size: 1em;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+	width:100%;
+    border:1px solid #CCC;
+    border-radius: 0px 90px 0px 90px;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:120px;
+	max-width:100%;
+    resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:tomato;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:15px;
+    font-size:15px;
+    margin-left: 25px;
+    border-radius: 0px 0px 10px 90px;
+}
+
+#contact button[type="submit"]:hover {
+	background: #0dd;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+
+
+/* End Of the contact style*/
+
+
+
+
 footer{
     padding: 25px 0px;
     background-color: #000000;
     color: white;
+    position: relative;
 }
 
 footer a{
